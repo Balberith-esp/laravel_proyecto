@@ -23,6 +23,11 @@ class NutricionSeeder extends Seeder
 			'clasificacion' => '4',
 			'user_id' => '1',
         ),
+        array(
+			'tipo' => 'KETO',
+			'clasificacion' => '4',
+			'user_id' => '2',
+        ),
     );
     public function run()
     {

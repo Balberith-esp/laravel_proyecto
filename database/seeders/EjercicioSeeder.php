@@ -25,6 +25,12 @@ class EjercicioSeeder extends Seeder
 			'descripcion' => 'Rutina brazo/hombre completo 2 dias/semana, intensidad alta',
 			'user_id' => '1',
         ),
+        array(
+			'nombre' => 'Entrenamiento Brazo/hombre',
+			'zona' => 'Brazo/hombre',
+			'descripcion' => 'Rutina brazo/hombre completo 2 dias/semana, intensidad alta',
+			'user_id' => '2',
+        ),
     );
     public function run()
     {

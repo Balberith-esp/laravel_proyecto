@@ -91,7 +91,7 @@
                             <td>
                                 @foreach ($dataEjercicio as $item)
                                     @if ($item->parent_id == $ejercicio->id)
-                                        {{$item->path}}
+                                        <img src="{{('../resources/assets/'.$item->path)}}" style="width:100px">
                                     @endif
                                 @endforeach
                             </td>
@@ -123,7 +123,7 @@
                             <td>
                                 @foreach ($dataNutricion as $item)
                                     @if ($item->parent_id == $nutricion->id)
-                                        {{$item->path}}
+                                    <img src="{{('../resources/assets/'.$item->path)}}" style="width:100px">
                                     @endif
                                 @endforeach
                             </td>

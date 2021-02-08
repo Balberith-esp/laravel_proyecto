@@ -34,7 +34,7 @@ class UsuarioSeeder extends Seeder
 			'pais' => 'España',
 			'provincia' => 'Cantabria',
             'ciudad' => 'Torrelavega',
-            'activo'=> 1,
+            'activo'=> 0,
             "fotoPerfil" => 'fotoPedro.jpg'
         ),
     );

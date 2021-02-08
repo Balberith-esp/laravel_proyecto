@@ -14,60 +14,75 @@ class RecursoSeeder extends Seeder
      */
     private $recursos = array(
 		array(
-			'path' => 'path....',
+			'path' => 'img/1.jpg',
 			'commentable_id' => '1',
 			'commentable_type' => 'Ejercicio',
             'parent_id' => '1',
             'user_id' => '1',
         ),
         array(
-			'path' => 'path....',
+			'path' => 'img/2.jpg',
 			'commentable_id' => '1',
 			'commentable_type' => 'Ejercicio',
             'parent_id' => '1',
             'user_id' => '1',
         ),
         array(
-			'path' => 'path....',
+			'path' => 'img/3.jpg',
 			'commentable_id' => '1',
 			'commentable_type' => 'Nutricion',
             'parent_id' => '1',
             'user_id' => '1',
         ),
         array(
-			'path' => 'path....',
+			'path' => 'img/4.jpg',
 			'commentable_id' => '2',
 			'commentable_type' => 'Ejercicio',
             'parent_id' => '1',
             'user_id' => '1',
         ),
 		array(
-			'path' => 'path....',
+			'path' => 'img/5.jpg',
 			'commentable_id' => '2',
 			'commentable_type' => 'Ejercicio',
             'parent_id' => '1',
             'user_id' => '1',
         ),
         array(
-			'path' => 'path....',
+			'path' => 'img/6.jpg',
 			'commentable_id' => '2',
 			'commentable_type' => 'Ejercicio',
             'parent_id' => '2',
             'user_id' => '1',
         ), 		array(
-			'path' => 'path....',
+			'path' => 'img/7.jpg',
 			'commentable_id' => '1',
 			'commentable_type' => 'Nutricion',
             'parent_id' => '2',
             'user_id' => '1',
         ),
         array(
-			'path' => 'path....',
+			'path' => 'img/8.jpg',
 			'commentable_id' => '1',
-            'user_id' => '1',
-            'parent_id' => '2',
+            'user_id' => '2',
+            'parent_id' => '3',
+			'commentable_type' => 'Ejercicio',
+        ),
+        array(
+			'path' => 'img/2.jpg',
+			'commentable_id' => '1',
 			'commentable_type' => 'Nutricion',
-        ),   );
+            'parent_id' => '3',
+            'user_id' => '2',
+        ),
+        array(
+			'path' => 'img/1.jpg',
+			'commentable_id' => '1',
+			'commentable_type' => 'Nutricion',
+            'parent_id' => '3',
+            'user_id' => '2',
+        )  ,
+    );
     public function run()
     {
         //
